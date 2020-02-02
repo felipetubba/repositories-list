@@ -4,7 +4,7 @@ import './styles.css'
 
 const Header = () => {
     return (
-        <header id="main-header">JSHunt</header>
+        <header id="main-header">Dev List</header>
     )
 }
 

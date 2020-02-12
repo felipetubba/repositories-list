@@ -31,7 +31,7 @@ const Main = () => {
   return (
     <div className="main-wrapper">
       <form onSubmit={addNewUser}>
-        <input type="text" onChange={ e => (setNewUsers(e.target.value))}/>
+        <input type="text" placeholder="Username Github" onChange={ e => (setNewUsers(e.target.value))}/>
         <button type="submit">Adicionar</button>
       </form>
       {users.map(user => (

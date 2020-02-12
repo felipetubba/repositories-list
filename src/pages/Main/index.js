@@ -41,7 +41,7 @@ const Main = () => {
             <h2>{user.login}</h2>
             <p>{user.location}</p>
             <p>Repositórios publicos: {user.public_repos}</p>
-            <a href={user.id}>Perfil do usuário</a>
+            <a href={user.html_url}>Perfil do usuário</a>
             <br></br>
             <Link to={`/repos/${user.login}`}>Repos</Link>
           </div>

@@ -2,9 +2,9 @@ import React from 'react'
 
 import './styles.css'
 
-const Header = () => {
+const Header = ( props ) => {
     return (
-        <header id="main-header">Dev List</header>
+        <header id="main-header">{props.titulo}</header>
     )
 }
 

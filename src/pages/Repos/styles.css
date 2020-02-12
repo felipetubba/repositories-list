@@ -1,0 +1,15 @@
+.repos-wrapper {
+    display: flex;
+    justify-content: start;
+    width: 400px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.repos-wrapper ul li {
+    list-style: none;
+    font-size: 18px;
+    padding-top: 5px;
+}
